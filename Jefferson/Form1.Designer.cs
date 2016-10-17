@@ -99,7 +99,7 @@
             this.Upper.Dock = System.Windows.Forms.DockStyle.Left;
             this.Upper.Location = new System.Drawing.Point(0, 0);
             this.Upper.Name = "Upper";
-            this.Upper.Size = new System.Drawing.Size(101, 518);
+            this.Upper.Size = new System.Drawing.Size(63, 518);
             this.Upper.TabIndex = 2;
             // 
             // panel1
@@ -123,7 +123,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 83);
+            this.button1.Size = new System.Drawing.Size(54, 51);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -137,9 +137,9 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(3, 92);
+            this.button2.Location = new System.Drawing.Point(3, 60);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 83);
+            this.button2.Size = new System.Drawing.Size(54, 53);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -148,10 +148,10 @@
             // 
             this.Tab.Controls.Add(this.encPage);
             this.Tab.Controls.Add(this.DecPage);
-            this.Tab.Location = new System.Drawing.Point(108, 3);
+            this.Tab.Location = new System.Drawing.Point(69, 3);
             this.Tab.Name = "Tab";
             this.Tab.SelectedIndex = 0;
-            this.Tab.Size = new System.Drawing.Size(664, 512);
+            this.Tab.Size = new System.Drawing.Size(703, 512);
             this.Tab.TabIndex = 3;
             // 
             // encPage
@@ -165,7 +165,7 @@
             this.encPage.Location = new System.Drawing.Point(4, 22);
             this.encPage.Name = "encPage";
             this.encPage.Padding = new System.Windows.Forms.Padding(3);
-            this.encPage.Size = new System.Drawing.Size(656, 486);
+            this.encPage.Size = new System.Drawing.Size(695, 486);
             this.encPage.TabIndex = 0;
             this.encPage.Text = "tabPage1";
             // 
@@ -180,7 +180,7 @@
             this.DecPage.Location = new System.Drawing.Point(4, 22);
             this.DecPage.Name = "DecPage";
             this.DecPage.Padding = new System.Windows.Forms.Padding(3);
-            this.DecPage.Size = new System.Drawing.Size(656, 486);
+            this.DecPage.Size = new System.Drawing.Size(695, 486);
             this.DecPage.TabIndex = 1;
             this.DecPage.Text = "tabPage2";
             // 
@@ -212,7 +212,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(650, 58);
+            this.panel2.Size = new System.Drawing.Size(689, 58);
             this.panel2.TabIndex = 2;
             // 
             // panel3
@@ -222,7 +222,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(650, 58);
+            this.panel3.Size = new System.Drawing.Size(689, 58);
             this.panel3.TabIndex = 3;
             // 
             // label3
@@ -241,29 +241,29 @@
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.button3.FlatAppearance.BorderSize = 3;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(2, 53);
+            this.button3.Location = new System.Drawing.Point(55, 58);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(129, 29);
-            this.button3.TabIndex = 3;
+            this.button3.TabIndex = 2;
             this.button3.Text = "Start";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // CylinersNumber
             // 
-            this.CylinersNumber.Location = new System.Drawing.Point(85, 22);
+            this.CylinersNumber.Location = new System.Drawing.Point(135, 22);
             this.CylinersNumber.Name = "CylinersNumber";
             this.CylinersNumber.Size = new System.Drawing.Size(46, 20);
-            this.CylinersNumber.TabIndex = 4;
+            this.CylinersNumber.TabIndex = 1;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.CylinersNumber);
             this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Location = new System.Drawing.Point(6, 99);
+            this.groupBox1.Location = new System.Drawing.Point(238, 80);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(181, 93);
+            this.groupBox1.Size = new System.Drawing.Size(222, 93);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Information";
@@ -272,7 +272,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1, 16);
+            this.label4.Location = new System.Drawing.Point(50, 16);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 28);
             this.label4.TabIndex = 5;
@@ -293,7 +293,7 @@
             this.CodeNumber.Location = new System.Drawing.Point(70, 31);
             this.CodeNumber.Name = "CodeNumber";
             this.CodeNumber.Size = new System.Drawing.Size(36, 20);
-            this.CodeNumber.TabIndex = 6;
+            this.CodeNumber.TabIndex = 3;
             // 
             // CylinerPanel
             // 
@@ -324,7 +324,7 @@
             this.button4.Location = new System.Drawing.Point(9, 68);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(97, 29);
-            this.button4.TabIndex = 6;
+            this.button4.TabIndex = 4;
             this.button4.Text = "Start";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -407,7 +407,7 @@
             this.button6.Location = new System.Drawing.Point(293, 84);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(50, 29);
-            this.button6.TabIndex = 9;
+            this.button6.TabIndex = 5;
             this.button6.Text = "Send";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -483,7 +483,7 @@
             this.DecCode.Location = new System.Drawing.Point(71, 32);
             this.DecCode.Name = "DecCode";
             this.DecCode.Size = new System.Drawing.Size(58, 27);
-            this.DecCode.TabIndex = 7;
+            this.DecCode.TabIndex = 6;
             // 
             // label10
             // 

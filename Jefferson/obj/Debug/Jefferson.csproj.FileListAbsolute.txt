@@ -9,3 +9,7 @@ F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.Properties.Resour
 F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.csproj.GenerateResource.Cache
 F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.exe
 F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.pdb
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\Jefferson.exe.manifest
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\Jefferson.application
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.exe.manifest
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.application

@@ -93,11 +93,21 @@ namespace Jefferson {
         private void button4_Click(object sender, EventArgs e) {
             try {
                 TheCode = Convert.ToInt32(CodeNumber.Text);
+                for (int m = 2; m < 100; m++) {
+                 if (TheCode > 26 && TheCode <26*m) {
+                     TheCode = TheCode - (26 * (m - 1));
+                     MessageBox.Show(TheCode+"");
+                     break;
+                }   
+                }
+                
+                
                 Message.Text = ""; EncMessage.Text = "";
                 _Message = ""; _EncMessage = "";
                 for (int i = 0; i < cNumbers; i++) {
 
-                    theAsciNumer = (TheCode + Convert.ToChar(cylinders[i].Text));
+
+                    theAsciNumer = (TheCode + Convert.ToChar(cylinders[i].Text.ToUpper()));
                     _Message = _Message + cylinders[i].Text;
                     //MessageBox.Show(theAsciNumer.ToString());
                     if (theAsciNumer > 90) {
@@ -112,7 +122,7 @@ namespace Jefferson {
                 EncMessage.Text = _EncMessage;
             }
             catch (FormatException er) {
-                    MessageBox.Show("please Enter a number");    
+                    MessageBox.Show("please Enter a number and check your data");    
             }
         }
 
