@@ -1,0 +1,11 @@
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\Jefferson.exe.config
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\Jefferson.exe
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\Jefferson.pdb
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\jSkin.dll
+F:\cs50\indianaspforms\Jefferson\Jefferson\bin\Debug\jSkin.pdb
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.csprojResolveAssemblyReference.cache
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.Form1.resources
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.Properties.Resources.resources
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.csproj.GenerateResource.Cache
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.exe
+F:\cs50\indianaspforms\Jefferson\Jefferson\obj\Debug\Jefferson.pdb
